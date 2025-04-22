@@ -51,7 +51,8 @@ public class Demo2StaticDemo {
 
         Demo3Singleton instance = Demo3Singleton.getInstance();
         Demo3Singleton instance2 = Demo3Singleton.getInstance(); //instance已经存在，直接返回已存在的instance
-
+        // 报错：instance是私有化的属性，无法对外提供访问
+        // Demo3Singleton test = Demo3Singleton.instance;
     }
 
 

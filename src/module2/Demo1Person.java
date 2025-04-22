@@ -4,7 +4,7 @@ public class Demo1Person {
 
     // person类中的属性（成员变量）
     String name;
-    int age;
+    public int age;
     char gender; // 男/女
 
     public Demo1Person(){}
