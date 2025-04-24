@@ -1,6 +1,8 @@
 package module2.inheritance;
 
-class Dog extends Animal{
+import module2.interfacedemo.Swimmer;
+
+public class Dog extends Animal implements Swimmer {
     private String breed;
 
     public Dog(String name, int age, String breed) {
@@ -30,5 +32,9 @@ class Dog extends Animal{
 
         }
         return false;
+    }
+
+    public void swim() {
+        System.out.println(this.breed + "犬" + this.name + "正在狗爬式游泳");
     }
 }
