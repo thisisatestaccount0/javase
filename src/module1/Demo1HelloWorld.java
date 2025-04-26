@@ -2,14 +2,15 @@ package module1;
 
 public class Demo1HelloWorld {
 
-    private final static String MYSQL_URL = "jdbc:mysql://localhost:3306/test";
+    // final修饰的变量，不可以多次赋值
+    public final static String MYSQL_URL = "jdbc:mysql://localhost:3306/test";
 
     /**
      * 这个是文档注释，文档注释在生成文档的时候会被解析。
      *
      * @param args
      */
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         // println = print line
         System.out.println("Hello World");
 

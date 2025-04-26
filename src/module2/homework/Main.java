@@ -20,7 +20,7 @@ package module2.homework;
  *
  * 庄家.摇色子()
  * 玩家.猜大小()
- * 庄家.开结果()*/
+ * 庄家.开结果()*/
 public class Main {
     public static void main(String[] args) {
 

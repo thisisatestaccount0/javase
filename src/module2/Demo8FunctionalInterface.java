@@ -34,7 +34,7 @@ public class Demo8FunctionalInterface {
         System.out.println(mapper3.map("test"));
 
         MyMapper<String,Integer> mapper4 = String::length;  //方法引用。
-        System.out.println(mapper3.map("test"));
+        System.out.println(mapper4.map("test"));
 
     }
 

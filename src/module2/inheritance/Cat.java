@@ -21,6 +21,11 @@ public class Cat extends Animal implements Swimmer, Fly {
         }
     }
 
+    public void eat(String food) {
+
+        System.out.println(this.name + "正在吃"+food);
+    }
+
     public void catchMouse() {
         System.out.println(this.name + "正在抓老鼠");
     }

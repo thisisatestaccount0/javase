@@ -3,7 +3,7 @@ package module2.inheritance;
 
 public class Demo1InheritanceExample {
     public static void main(String[] args) {
-        Animal animal = new Animal("大象", 3);
+        module2.inheritance.Animal animal = new Animal("大象", 3);
         animal.eat();
         animal.sleep();
 
