@@ -53,4 +53,12 @@ public class Demo1Person {
         xiaoli.introduce();
     }
 
+    @Override
+    public String toString() {
+        return "Demo1Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
 }
