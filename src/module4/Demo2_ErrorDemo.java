@@ -11,7 +11,7 @@ public class Demo2_ErrorDemo {
     public static void main(String[] args) {
 
         // StackOverflowError
-//        test();
+        test();
 
         // OutOfMemoryError
         List<Object> list = new ArrayList<Object>();

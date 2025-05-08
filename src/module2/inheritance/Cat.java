@@ -12,6 +12,7 @@ public class Cat extends Animal implements Swimmer, Fly {
         System.out.println("调用了 Cat 的构造函数");
     }
 
+    // 覆写了父类的eat方法
     @Override
     public void eat() {
         if (eatFish) {
